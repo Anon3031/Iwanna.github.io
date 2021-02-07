@@ -6,6 +6,14 @@
  	margin:0;
  	padding:0;
  }
+ 	p {
+ 		font-family: "Roboto", sans-serif;
+		font-weight: 500;
+		font-size: 16px;
+		color:white;
+		text-decoration: none;	
+
+ 	}
 
 	li, a, button {
 		font-family: "Roboto", sans-serif;
@@ -21,13 +29,14 @@
 		justify-content: space-between;
 		align-items: center;
 		padding:30 10%;
-		height: 133px;
+		height: 100px;
 		background-color: #23252a;
 	}
 
 	.logo {
 		cursor: pointer;
-		width:160px;
+		width:125px;
+		height:100px;
 	}
 
 	.nav_links {
@@ -88,4 +97,9 @@
 
 	.s_links li a:hover {
 		color:#0088a9;
+	}
+
+	body{
+		background: rgb(88,187,255);
+		background: linear-gradient(90deg, rgba(88,187,255,1) 16%, rgba(50,198,230,1) 75%)
 	}
